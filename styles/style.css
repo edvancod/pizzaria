@@ -49,7 +49,7 @@ header {
 }
 .menu{
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 16px;
     width: 650px;
     display: flex;
     justify-content: space-around;
@@ -61,6 +61,7 @@ header {
     padding: 21px 16px;
     border-bottom: 3px solid transparent;
     transition: all 200ms ease-in;
+    font-weight: 600;
 }
 
 .menu a:hover{
