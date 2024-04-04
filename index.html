@@ -1,49 +1,187 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles/style.css" />
     <title>Pizzaria</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <div class="container">
-           <div class="content">
-            <div class="logo">
-               <a href="#">
-                   <img src="./src/logo.png" alt="logo da pizzaria">
+      <div class="container">
+        <div class="content">
+          <div class="logo">
+            <a href="#">
+              <img src="./src/logo.png" alt="logo da pizzaria" />
+            </a>
+            <a href="#"><h3>PizzaShop</h3></a>
+          </div>
+        </div>
 
-               </a>
-               <a href="#"><h3>PizzaShop</h3></a>
-            </div>
-           </div>
-        
-        <nav >
-           <ul class="menu">
+        <nav>
+          <ul class="menu">
             <li><a href="#">Home</a></li>
             <li><a href="#">Sobre nós</a></li>
             <li><a href="#">Cardápio</a></li>
             <li><a href="#">Contatos</a></li>
-            <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-            <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-            <li><a href="#"><i class="bi bi-cart-fill"></i></a></li>
-           </ul>
+            <li>
+              <a href="#"><i class="bi bi-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="bi bi-cart-fill"></i></a>
+            </li>
+          </ul>
         </nav>
-        </div>
+      </div>
     </header>
-        <main>
+    <main>
+      <section class="first">
+        <div class="black">
+          <div class="comnet">
+            <h2>deixe seu dia mias saboroso!!!</h2>
+            <h4>As pizzas mais recheadas da região</h4>
+            <div class="btn">
+              <button>Reserve a sua</button>
+              <button>montar a sua pizza</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="sobre">
+        <div class="container-sobre">
+          <h2>Sobre Nós</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus
+            pariatur quam voluptatem praesentium maiores corrupti. Alias, velit
+            odit iste placeat eius excepturi vel consequatur doloremque
+            obcaecati dolorem, earum praesentium odio! Lorem ipsum dolor, sit
+            amet consectetur adipisicing elit. Cum repellendus at expedita. Fuga
+            quibusdam, ex repellendus quas, culpa temporibus ab id fugit
+            explicabo officia deserunt aliquid hic nostrum, sunt nihil! Ut nisi
+            architecto mollitia facilis, incidunt tenetur qui facere est
+            similique sunt dignissimos nobis minima, maiores distinctio harum?
+            Eaque earum ex libero perferendis corrupti quasi inventore ullam
+            minus tenetur in! Veniam, sunt eligendi velit assumenda ad porro
+            quibusdam pariatur minima odit omnis. Fuga distinctio sunt nam
+            reprehenderit, deleniti voluptates cupiditate cum hic ab illo totam
+            dolor, perspiciatis voluptatibus id ad? Hic voluptas obcaecati rerum
+            vitae cupiditate adipisci voluptates similique facere enim, quo
+            facilis tempore accusantium temporibus suscipit error eaque eligendi
+            consectetur, asperiores dignissimos cum exercitationem ut. Facilis
+            ullam autem dignissimos? Deleniti a laudantium dignissimos ab error
+            doloremque quae, quod quisquam eveniet. Molestias, impedit quaerat
+            soluta error explicabo autem atque. Tenetur eaque eum officia animi
+            ipsa dignissimos atque, sed natus aliquam? Corrupti fuga quibusdam
             
-            
-        </main>
-    <footer>
+          </p>
+        </div>
+        <figure class="imagem">
+            <img src="./src/cozinha.jpg" alt="cozinha">
+        </figure>
+      </section>
+      <section class="cardapio" id="cardapio">
+          <h2>cardápio</h2>
+          <div class="itens-cardapio">
+              <div class="pizza">
+                  <img src="./src/frango.png" alt="pizza de frango">
+                  <div class="info">
+                      <h3>Frango</h3>
+                      <h4>6 fatias <span>R$ 35,00</span></h4>
+                      <h4>8 fatias <span>R$ 45,00</span></h4>
+                      <h4>12 fatias <span>R$ 55,00</span></h4>
+                      <button>pedir agora</button>
+                  </div>
+              </div>
+              <div class="pizza">
+                <img src="./src/pizzaTranparent.png" alt="pizza de frango">
+                <div class="info">
+                    <h3>calabresa</h3>
+                    <h4>6 fatias <span>R$ 35,00</span></h4>
+                    <h4>8 fatias <span>R$ 45,00</span></h4>
+                    <h4>12 fatias <span>R$ 55,00</span></h4>
+                    <button>pedir agora</button>
+                </div>
+            </div>
+            <div class="pizza">
+                <img src="./src/portuguesa.png" alt="pizza de frango">
+                <div class="info">
+                    <h3>portuguesa</h3>
+                    <h4>6 fatias <span>R$ 35,00</span></h4>
+                    <h4>8 fatias <span>R$ 45,00</span></h4>
+                    <h4>12 fatias <span>R$ 55,00</span></h4>
+                    <button>pedir agora</button>
+                </div>
+            </div>
+            <div class="pizza">
+                <img src="./src/prestigio.png" alt="pizza de prestigio">
+                <div class="info">
+                    <h3>prestigio</h3>
+                    <h4>6 fatias <span>R$ 35,00</span></h4>
+                    <h4>8 fatias <span>R$ 45,00</span></h4>
+                    <h4>12 fatias <span>R$ 55,00</span></h4>
+                    <button>pedir agora</button>
+                </div>
+            </div>
+            <div class="pizza">
+                <img src="./src/sensacao.png" alt="pizza de sensação">
+                <div class="info">
+                    <h3>sensação</h3>
+                    <h4>6 fatias <span>R$ 35,00</span></h4>
+                    <h4>8 fatias <span>R$ 45,00</span></h4>
+                    <h4>12 fatias <span>R$ 55,00</span></h4>
+                    <button>pedir agora</button>
+                </div>
+            </div>
+            <div class="pizza">
+                <img src="./src/strogonoff.png" alt="pizza de prestigio">
+                <div class="info">
+                    <h3>strogonoff</h3>
+                    <h4>6 fatias <span>R$ 35,00</span></h4>
+                    <h4>8 fatias <span>R$ 45,00</span></h4>
+                    <h4>12 fatias <span>R$ 55,00</span></h4>
+                    <button>pedir agora</button>
+                </div>
+            </div>
+            <div class="pizza">
+                <img src="./src/portuguesa.png" alt="pizza de prestigio">
+                <div class="info">
+                    <h3>prestigio</h3>
+                    <h4>6 fatias <span>R$ 35,00</span></h4>
+                    <h4>8 fatias <span>R$ 45,00</span></h4>
+                    <h4>12 fatias <span>R$ 55,00</span></h4>
+                    <button>pedir agora</button>
+                </div>
+            </div>
+            <div class="pizza">
+                <img src="./src/prestigio.png" alt="pizza de prestigio">
+                <div class="info">
+                    <h3>prestigio</h3>
+                    <h4>6 fatias <span>R$ 35,00</span></h4>
+                    <h4>8 fatias <span>R$ 45,00</span></h4>
+                    <h4>12 fatias <span>R$ 55,00</span></h4>
+                    <button>pedir agora</button>
+                </div>
+            </div>
+          </div>
 
-    </footer>
+
+      </section>
+    </main>
+    <footer></footer>
     <script src="./scripts/main.js"></script>
-</body>
+  </body>
 </html>
